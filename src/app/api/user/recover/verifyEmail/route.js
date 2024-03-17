@@ -28,7 +28,7 @@ export async function POST(req, res) {
     // const emailSubject = "OTP Code Update";
     //  await SendEmail(email, emailText, emailSubject);
 
-      return NextResponse.json({ status: "success to find the emeil but i can not send the email", data: result });
+      return NextResponse.json({ status: "success", data: result });
     } else {
       return NextResponse.json({ status: "fail", data: "No user found" });
     }
